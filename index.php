@@ -1,7 +1,4 @@
-<html>
-<title></title>
-<body>
-	<?php
+<?php
 $access_token = 'XXXXXXXXXXXXXXXXXXXXXXX';
 
 // Get POST body content
@@ -48,5 +45,3 @@ if (!is_null($events['events'])) {
 	}
 }
 echo "OK";
-</body>
-</html>
